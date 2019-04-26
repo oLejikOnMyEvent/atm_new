@@ -12,7 +12,7 @@ $(document).ready( function(){
         $("input").val(result = [])
      });
     
-    
+    // new Realization !!!!!
      $(".check2").click(function(){
        
          function computeChange(amount) {
@@ -37,6 +37,8 @@ $(document).ready( function(){
 
          computeChange(result.join(''))
     })
+    
+    //new Realization !!!!!
     
      $(".check").click(function() {
         function giveMyMoney(money, coins) {
